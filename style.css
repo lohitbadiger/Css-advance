@@ -1,0 +1,57 @@
+.mustache{
+	width:180px;
+	height:180px;
+	border-radius:50%;
+	position: absolute;
+	color:red;
+	left:100px;
+
+	box-shadow: 
+	150px 240px 0 0 currentColor,
+	300px 240px 0 0 currentColor;
+	position:absolute;
+	left: 70%;
+	top:70%;
+	transform: translate(-10%, -40%);
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%); 
+	animation-name: flame;
+	animation-duration: 3ms;
+	animation-delay: 200ms;
+	animation-iteration-count:infinite;
+	transform-origin: center bottom;
+	animation-direction: alternate;
+	animation-timing-function:ease-in;
+
+
+}
+
+.mustache::before{
+	content: "";
+	position:absolute;
+	left:30px;
+	top:120px;
+	width: 210px;
+	height: 120px;
+	border-bottom: solid 180px currentColor;
+	border-radius: 0 0 0 100%;
+	transform: rotate(-40deg);
+	transform-origin: right 210px;
+
+}
+
+.mustache::after{
+	content: "";
+	position:absolute;
+	left:390px;
+	top:120px;
+	width: 210px;
+	height: 120px;
+	border-bottom: solid 180px currentColor;
+	border-radius: 0 0  100% 0;
+	transform: rotate(40deg);
+	transform-origin: left 210px;
+	
+}

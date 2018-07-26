@@ -1,0 +1,110 @@
+
+
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color: red;
+	color: red;
+ background:linear-gradient(yellow,#678789) fixed;
+
+}
+
+.header{
+	margin-left: 60px;
+	margin-top: 10px;
+	margin: 60px; 
+	background-color: blue;
+	width: 660px;
+	height: 100px;
+	line-height: 100px;
+	
+ background:linear-gradient(red,#678789) fixed;
+ border-radius: 10px 10px 10px 10px;
+
+}
+	
+
+
+
+
+.font {
+	font-size: 30px;
+	position:absolute;
+	left:100px;
+	top:80px;
+
+
+background:linear-gradient(white,yellow) fixed;
+
+
+
+	
+
+
+	font-family: 'Spirax', cursive;
+}
+
+.workarea{
+	margin-left: 60px;
+ border-radius: 10px 10px 10px 10px;
+
+
+	background:grey;
+	width: 660px;
+	height: 1000px;
+
+
+	
+
+
+}
+
+/*
+
+.mustache {
+	width: 180px;
+	height:180px;
+position: absolute;
+	left: 100px;
+	color:green;
+	border-radius: 50%;
+	box-shadow: 
+	150px 240px 0 0 currentColor,
+	300px 240px 0 0 currentColor;
+	background-color:red;
+
+}
+
+	.mustache::before{
+	content: "";
+	position:absolute;
+	left:30px;
+	top:120px;
+	width: 210px;
+	height: 120px;
+	border-bottom: solid 180px currentColor;
+	border-radius:  0  0    0  100% ;
+	transform: rotate(-40deg);
+	transform-origin: right 210px;
+
+}
+.mustache::after{
+	content: "";
+	position:absolute;
+	left:390px;
+	top:120px;
+	width: 210px;
+	height: 120px;
+	border-bottom: solid 180px currentColor;
+	border-radius:  0  0   100%  0   ;
+	transform: rotate(40deg);
+	transform-origin: left 210px;
+
+}
+
+
+
+*/
